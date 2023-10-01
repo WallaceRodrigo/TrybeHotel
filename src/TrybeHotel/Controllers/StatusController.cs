@@ -7,6 +7,6 @@ namespace TrybeHotel.Controllers
     [Route("/")]
     public class StatusController : Controller
     {
-    
+        //Not implemented
     }
 }
