@@ -30,8 +30,6 @@ namespace TrybeHotel.Services
             throw new NotImplementedException();
         }
 
-       
-
         public int CalculateDistance (string latitudeOrigin, string longitudeOrigin, string latitudeDestiny, string longitudeDestiny) {
             double latOrigin = double.Parse(latitudeOrigin.Replace('.',','));
             double lonOrigin = double.Parse(longitudeOrigin.Replace('.',','));
